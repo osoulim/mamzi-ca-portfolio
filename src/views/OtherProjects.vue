@@ -3,7 +3,7 @@
     <h1>Other stuff</h1>
 
     <div style="margin-bottom: 30px;">
-      And here are some other stuff I've made or heavily contributed to, which are totally different than the stuff from earlier.
+      Here are some of the things I've made.
     </div>
     <ProjectsList v-bind:projects="projects" />
   </div>
@@ -12,7 +12,7 @@
 <script lang="ts">
 import Vue from "vue";
 import ProjectsList from "@/components/ProjectsList.vue";
-import otherProjectsData from "@/data/OtherProjectsData.ts";
+import projects from "@/data/ProjectsData.ts";
 
 export default Vue.extend({
   name: "Projects",
@@ -21,7 +21,7 @@ export default Vue.extend({
   },
   data: function () {
     return {
-      projects: otherProjectsData,
+      projects,
     };
   },
 });
