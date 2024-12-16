@@ -15,7 +15,7 @@ import ProjectsList from "@/components/ProjectsList.vue";
 import otherProjectsData from "@/data/OtherProjectsData.ts";
 
 export default Vue.extend({
-  name: "OtherProjects",
+  name: "Projects",
   components: {
     ProjectsList,
   },
