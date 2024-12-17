@@ -3,24 +3,23 @@
     <h1>Resume</h1>
 
     <div class="paragraph">
-      I'm <strong>John Matrix</strong>, a former Delta Force operative with lots of experience, lots of training and huge muscles.
-      <br />After graduating from kindergarten, I've been enrolled in the army for 25 years, where I learned to destroy things in an amazing number of ways.
-      <br />I joined the Delta Force because I thought it was Greek lessons, but I quickly adapted to this unexpected environment and became a key element.
-      <br />I love teamwork, but I can also go in solo depending on the mission requirements.
+      I'm <strong>Mamzi (Mohammadreza) Osouli</strong>, a software developer based on Calgary, born and raised in Iran.
+      <br />I have a Master's degree in Computer Science and I've been working as a software developer for more than 5 years.
+      <br />I am a backend developer with a focus on Node.js and Python. I have experience with both SQL and NoSQL databases.
+      <br />I got my master's degree in Computer Science from the University of Calgary, where I learned graphics programming and machine learning.
       <br />
-      <br />Right now I'm trying to find inner peace after I've read some personal development books. I'm looking for a monk job so if you have any opportunity feel free to 
-      <router-link to="/contact">contact me</router-link>.
+      <br />Right now I'm trying to use the skills I learned in school to join a gaming or animation company as a software developer.
+<!--      <router-link to="/contact">contact me</router-link>.-->
       <br />
-      <br />Besides war, I'm passionate about firearms, martial arts, explosions, push-ups and flowers.
-
+      <br />Besides programming, I like to play video games, watch movies, take photos, and take care of my plants.
       <div style="margin-top:20px; margin-bottom:20px;">
         <a class="download-link" href="d/resume-en.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Download as PDF 🇬🇧</a>
-        <a class="download-link" href="d/cv-fr.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Télécharger en PDF 🇫🇷</a>
+<!--        <a class="download-link" href="d/cv-fr.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Télécharger en PDF 🇫🇷</a>-->
         <div style="clear:both"></div>
       </div>
     </div>
     <div class="photo">
-      <img src="img/resume-photo.png" alt="Photo of John" />
+      <img src="img/Mamzi-real.jpg" alt="Photo of John" />
     </div>
 
     <div style="clear:both"></div>
@@ -28,26 +27,29 @@
     <div class="full-content">
       <h2>Work experience</h2>
 
-      <h3>Operation Classified - Delta Force</h3>
-      <h4>2018-2019</h4>
+      <h3>University of Calgary</h3>
+      <h4>Sep 2021 - Dec 2024</h4>
 
-      <div>It's classified so I can't speak about it.</div>
+      <div>Research assistant in Graphics and Interactive Visualization (GIV) lab.
+        <br /> Working on many different graphics projects, including physical-based animations, and 3D modeling.
+      </div>
 
-      <div class="tech-stack">Firearms, knives, grenades, Hummer vehicle, parachute,...</div>
+      <div class="tech-stack">C++, OpenGL, Boost, Eigen, Python, TensorFlow</div>
 
-      <h3>Operation Classified - Delta Force</h3>
-      <h4>2015-2017</h4>
 
-      <div>It's classified so I can't speak about it.</div>
+      <h3>Widenode</h3>
+      <h4>July 2022 - Present</h4>
 
-      <div class="tech-stack">Even more Firearms, knives, grenades, Hummer vehicle, parachute,...</div>
+      <div>Widenode is a platform for unified data governance, automatic  APIs, and robust scaling of databases.</div>
 
-      <h3>Operation Classified - Delta Force</h3>
-      <h4>2012-2015</h4>
+      <div class="tech-stack">Node.js, TypeScript, MongoDB, Vue3, Rust </div>
 
-      <div>It's classified so I can't speak about it.</div>
+      <h3>Tapsi</h3>
+      <h4>Feb. 2020 - July 2021</h4>
 
-      <div class="tech-stack">Firearms, knives, grenades, Hummer vehicle, parachute,...</div>
+      <div>TAPSI is the fastest growing mobile transportation platform in Iran.</div>
+
+      <div class="tech-stack">Node.js, TypeScript, MongoDB, PostgreSQL, Redis, RabbitMQ, Docker, Kubernetes</div>
 
       <h2>Skills</h2>
 
