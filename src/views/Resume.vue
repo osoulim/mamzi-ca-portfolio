@@ -13,16 +13,15 @@
       <br />
       <br />Besides programming, I like to play video games, watch movies, take photos, and take care of my plants.
       <div style="margin-top:20px; margin-bottom:20px;">
-        <a class="download-link" href="d/resume-en.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Download as PDF 🇬🇧</a>
+        <a class="download-link" href="d/resume-en.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Download as PDF </a>
 <!--        <a class="download-link" href="d/cv-fr.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Télécharger en PDF 🇫🇷</a>-->
         <div style="clear:both"></div>
       </div>
     </div>
-    <div class="photo">
-      <img src="img/Mamzi-real.jpg" alt="Photo of John" />
-    </div>
 
-    <div style="clear:both"></div>
+    <img class="photo" src="img/Mamzi-real.jpg" alt="Photo of me" />
+
+  <div style="clear:both"></div>
 
     <div class="full-content">
       <h2>Work experience</h2>
@@ -54,53 +53,55 @@
       <h2>Skills</h2>
 
       <div class="skill-set">
-        <h3>Lethal</h3>
-        <SkillRate name="Handguns" :rate="5" />
-        <SkillRate name="Rifles" :rate="5" />
-        <SkillRate name="Shotguns" :rate="5" />
-        <SkillRate name="Machineguns" :rate="5" />
-        <SkillRate name="Missile launchers" :rate="5" />
-        <SkillRate name="Knives" :rate="5" />
-        <SkillRate name="Hand to hand combat" :rate="5" />
+        <h3>Programming</h3>
+        <SkillRate name="C++" :rate="5" />
+        <SkillRate name="OpenGL" :rate="5" />
+        <SkillRate name="Boost/ Math libraries" :rate="5" />
+        <SkillRate name="Python" :rate="5" />
+        <SkillRate name="Javascript/Typescript" :rate="5" />
+        <SkillRate name="Postgres/MongoDB" :rate="5" />
       </div>
 
       <div class="skill-set">
-        <h3>Non-lethal</h3>
-        <SkillRate name="Sneaking" :rate="1" />
-        <SkillRate name="Negotiation" :rate="1" />
-        <SkillRate name="Seduction" :rate="1" />
-        <SkillRate name="Sense of humor" :rate="2" />
+        <h3>Soft Skills</h3>
+        <SkillRate name="Team work" :rate="5" />
+        <SkillRate name="Working independently" :rate="5" />
+        <SkillRate name="Communication" :rate="5" />
       </div>
       <div style="clear:both" />
 
       <h2>Education</h2>
 
-      <h3>Kindergarten - 1985</h3>
-      <h4>Kindergarten degree</h4>
-      <div>Specialty in bullying and fighting (58 wins, 58 K-O, 0 losses)</div>
+      <h3>M.Sc. of Computer Science</h3>
+      <h4>University of Calgary</h4>
+      <div>GPA: 3.84/4</div>
+
+      <h3>B.Sc. of Computer Science</h3>
+      <h4>University of Tehran</h4>
+      <div>GPA: 3.55/4</div>
 
       <h2>Languages</h2>
 
-      <h3>American</h3>
-      <div>Basic knowledge but I know lots of one-liners</div>
+      <h3>English</h3>
+      <div>Full Proficiency</div>
 
-      <h3>That's it</h3>
-      <div>Who needs another language when you speak American?</div>
+      <h3>Farsi</h3>
+      <div>Native Speaker</div>
 
 
       <h2>Besides...</h2>
       <div>
-        <h3>I ❤️ Violence</h3>
-        <div>I find it really soothing to just shoot at bad guys</div>
+        <h3>I ❤️ Photography</h3>
+        <div>I do photography as a hobby. I like to take photos of night skies and portraits.</div>
 
-        <h3>I 🧡 Sports</h3>
-        <div>I used to be thin but then I ingested 10 kilos of steroids and proteins a day while doing 1000 push-ups.</div>
+        <h3>I 🧡 Movies</h3>
+        <div>I watch a lot of movies. I like to watch movies from different countries and genres.</div>
 
-        <h3>I 💛 Politics</h3>
-        <div>I hope I can have a career here someday but I might have temper issues.</div>
+        <h3>I 💛 Video Games</h3>
+        <div>I play video games in my free time. I like to play games with a good story and beautiful graphics.</div>
 
-        <h3>I 💚 Flowers</h3>
-        <div>Especially the big ones, with the trunk and leaves.</div>
+        <h3>I 💚 Plants</h3>
+        <div> I have a lot of plants in my apartment. I like to take care of them and watch them grow.</div>
 
       </div>
     </div>
@@ -183,6 +184,8 @@ h4 {
     float: left;
     padding: 30px;
     padding-left: 80px;
+    width: 250px;
+    border-radius: 50%;
   }
 
   .skill-set {
