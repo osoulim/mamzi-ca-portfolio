@@ -75,5 +75,55 @@ export default [
 
             <div class="paragraph center">
                 <img class="pc-screenshot" src="/img/projects/JellyCube.gif" alt="Jelly Cube Simulation" />
-            </div>`),
+            </div>`, "#f0ad4e"),
+    new ProjectData("project-tableCloth", "Table Cloth Simulation", "img/projects/TableClothCover.jpg", `
+    <div class="paragraph">
+            <strong>Table cloth simulation</strong> is a simulation of a table cloth.
+                The table cloth is composed of 1600 particles and all the particles are connected by springs to their neighbors.
+            </div>
+
+            <div class="paragraph">
+                Main features :
+                <ul>
+                <li>3D simulation</li>
+                <li>Mass spring system</li>
+                <li>Real-time rendering</li>
+                </ul>
+            </div>
+
+            <div class="paragraph">
+              <div class="notice">
+                Source code available on <a href="https://github.com/osoulim/MassSpringSimulation/tree/master" target="_blank">GitHub</a>.
+                </div>
+            </div>
+            
+            <div class="paragraph center">
+                <img class="pc-screenshot" src="/img/projects/TableCloth.gif" alt="Table Cloth Simulation" />
+                <img class="pc-screenshot" src="/img/projects/Cloth.gif" alt="Cloth Simulation" />
+            </div>`, "#5cb85c"),
+    new ProjectData("project-IK", "Inverse Kinematics", "img/projects/IKCover.jpg", `
+    <div class="paragraph">
+            <strong>Inverse Kinematics</strong> is a simulation of a robot arm using the inverse kinematics algorithm.
+            The robot arm is composed of 3 segments and the end effector can be moved by the user.
+            The inverse kinematics algorithm is used to calculate the angles of the joints of the robot arm.
+            </div>
+
+            <div class="paragraph">
+                Main features :
+                <ul>
+                <li>3D simulation</li>
+                <li>Inverse kinematics algorithm</li>
+                <li>Rigged model over the robot arm</li>
+                </ul>
+            </div>
+
+            <div class="paragraph">
+              <div class="notice">
+                Source code available on <a href="https://github.com/osoulim/InverseKinematic/tree/master" target="_blank">GitHub</a>.
+                </div>
+            </div>
+            
+            <div class="paragraph center">
+                <img class="pc-screenshot" src="/img/projects/IK.gif" alt="Inverse Kinematics Simulation" />
+            </div>`, "#007bff"),
 ];
